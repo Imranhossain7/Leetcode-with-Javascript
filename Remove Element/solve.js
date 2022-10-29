@@ -26,7 +26,7 @@
     var start =0;
      var end = nums.length-1;
      
-     while (left <= right){
+     while (start <= end){
          if(nums[start] === val) {
              nums[start] = nums [end];
              end-- ;
