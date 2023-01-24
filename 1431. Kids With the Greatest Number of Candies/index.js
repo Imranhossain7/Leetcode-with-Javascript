@@ -4,7 +4,6 @@
  * @return {boolean[]}
  */
 var kidsWithCandies = function (candies, extraCandies) {
-  let l = candies.length;
   let ret = [];
 
   let max = Math.max(...candies);
