@@ -4,10 +4,20 @@
  * @return {boolean}
  */
 var canConstruct = function (ransomNote, magazine) {
-  for (const cha of magazine) {
-    ransomNote = ransomNote.replace(cha, "");
+  let map = {};
+
+  for (let l of magazine) {
+    if (!map[l]) {
+      map[l] = 0;
+    }
+    map[l]++;
   }
 
-  if (!ransomNote) return true;
-  else return false;
+  for (let l of ransomNote) {
+    if (!map[l]) {
+      return false;
+    }
+    map[l]--;
+  }
+  return true;
 };
