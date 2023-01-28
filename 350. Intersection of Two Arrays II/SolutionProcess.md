@@ -35,7 +35,7 @@ Explanation: [9,4] is also accepted.
 
 ## Javascript Code
 
-This is the Javascript olution using map to iterate over the element and compare the elements. An array is used to return the answer.
+This is the Javascript solution using map to iterate over the element and compare the elements. An array is used to return the answer.
 
 ```
 /**
