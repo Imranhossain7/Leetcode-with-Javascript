@@ -32,7 +32,7 @@ Explanation: Sort the words in s to their original positions "Me1 Myself2 and3 I
 
 - At first the string needs to be made seperate into words,which can be done by using split() funtion.
 
-- Then based on the last letter/digit of each words they are sorted. As the last letter is their index number they are sorted as per their position.
+- reate a sort method which does sort the words by the relation between the last characters As the last letter is their index number they are sorted as per their position.C
 
 - Now the task is to remove the digit from last position.Here slice() is used to rempove the last component, you can also use other methods like substr().
 
