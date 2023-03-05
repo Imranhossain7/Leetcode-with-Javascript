@@ -77,8 +77,6 @@ var removeDuplicates = function(nums) {
 
 ```
 
-N.B: If you want you can do this by sortin the arrays and then compare their value one by one. Also can be done using objects.
-
 - Time complexity O(n).
 - Space complexity O(1).
 
