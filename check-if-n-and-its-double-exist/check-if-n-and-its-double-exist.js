@@ -9,15 +9,13 @@ var checkIfExist = function(arr) {
         let low = 0 ;
         let high = arr.length - 1;
         
-        let target = arr[i] *2;
-        
         while( low <= high) {
             let mid = Math.floor((low+high)/2);
             
-            if ( arr[mid] === target && mid !== i){
+            if ( (arr[mid] === arr[i] *2) && mid !== i){
                 return true
             }
-            else if (arr[mid]< target){
+            else if (arr[mid]< arr[i] *2){
                 low = mid + 1;
             }
             else{
