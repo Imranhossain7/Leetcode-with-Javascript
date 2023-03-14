@@ -68,6 +68,6 @@ var findDisappearedNumbers = function(nums) {
 
 - [Runtime: Time: 66 ms, Beats: 70.12%],[Memory: 44.8 MB, Beats: 17.13 %]
 
-N.B : Follow up: Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space. Which I didn't achieve on my own, so did not add the code. This is a great solution with explanation: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/solutions/1212505/o-n-constant-space-javascript-solution-with-explanation/?orderBy=most_votes&languageTags=javascript
+N.B : Follow up: Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space. Which I didn't achieve on my own. This is a great solution with explanation: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/solutions/1212505/o-n-constant-space-javascript-solution-with-explanation/?orderBy=most_votes&languageTags=javascript
 
 Hope you understood the solution.
